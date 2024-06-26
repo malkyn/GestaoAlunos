@@ -1,18 +1,11 @@
 ﻿using Autofac;
 using GestaoAlunos.Application;
 using GestaoAlunos.Application.Interfaces;
-using GestaoAlunos.Application.Interfaces.Mappers;
 using GestaoAlunos.Application.Mappers;
 using GestaoAlunos.Domain.Core.Interfaces.Repositories;
 using GestaoAlunos.Domain.Core.Interfaces.Services;
 using GestaoAlunos.Domain.Services;
 using GestaoAlunos.Infrastructure.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GestaoAlunos.Infrastructure.CrossCutting.IOC
 {
@@ -31,8 +24,6 @@ namespace GestaoAlunos.Infrastructure.CrossCutting.IOC
             builder.RegisterType<RepositoryClient>().As<IRepositoryClient>();
             builder.RegisterType<RepositoryProduct>().As<IRepositoryProduct>();
 
-            builder.RegisterType<MapperClient>().As<IMapperClient>();
-            builder.RegisterType<MapperProduct>().As<IMapperProduct>();
 
 
             #endregion
