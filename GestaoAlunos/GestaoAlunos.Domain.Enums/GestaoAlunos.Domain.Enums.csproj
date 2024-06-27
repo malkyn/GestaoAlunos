@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GestaoAlunos.Domain.Enums\GestaoAlunos.Domain.Enums.csproj" />
-  </ItemGroup>
-
 </Project>

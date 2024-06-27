@@ -11,17 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{5BB506A5-F005-424C-9DA3-A65BA1833EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.API", "GestaoAlunos.API\GestaoAlunos.API.csproj", "{F572CCBC-3A5C-4EE7-898F-381F26F635B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.API", "GestaoAlunos.API\GestaoAlunos.API.csproj", "{F572CCBC-3A5C-4EE7-898F-381F26F635B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Application", "GestaoAlunos.Application\GestaoAlunos.Application.csproj", "{070CCB69-8784-40EC-AACB-6A9F0010579F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.Application", "GestaoAlunos.Application\GestaoAlunos.Application.csproj", "{070CCB69-8784-40EC-AACB-6A9F0010579F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Domain", "GestaoAlunos.Domain\GestaoAlunos.Domain.csproj", "{5E36EA2F-2A22-4128-9134-CC5BB371775F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.Domain", "GestaoAlunos.Domain\GestaoAlunos.Domain.csproj", "{5E36EA2F-2A22-4128-9134-CC5BB371775F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Domain.Core", "GestaoAlunos.Domain.Core\GestaoAlunos.Domain.Core.csproj", "{28E54CB8-5590-4E94-951F-14E0C4992A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.Domain.Core", "GestaoAlunos.Domain.Core\GestaoAlunos.Domain.Core.csproj", "{28E54CB8-5590-4E94-951F-14E0C4992A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Domain.Services", "GestaoAlunos.Domain.Services\GestaoAlunos.Domain.Services.csproj", "{EA221BEC-0C4E-46E5-81DE-7FA108735B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.Domain.Services", "GestaoAlunos.Domain.Services\GestaoAlunos.Domain.Services.csproj", "{EA221BEC-0C4E-46E5-81DE-7FA108735B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Infrastructure", "GestaoAlunos.Infrastructure\GestaoAlunos.Infrastructure.csproj", "{3D3712DE-EAD3-4A69-A862-6404F2C86EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoAlunos.Infrastructure", "GestaoAlunos.Infrastructure\GestaoAlunos.Infrastructure.csproj", "{3D3712DE-EAD3-4A69-A862-6404F2C86EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoAlunos.Domain.Enums", "GestaoAlunos.Domain.Enums\GestaoAlunos.Domain.Enums.csproj", "{82834701-F6D4-4F55-AA14-4414D896EB1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{3D3712DE-EAD3-4A69-A862-6404F2C86EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D3712DE-EAD3-4A69-A862-6404F2C86EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D3712DE-EAD3-4A69-A862-6404F2C86EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82834701-F6D4-4F55-AA14-4414D896EB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82834701-F6D4-4F55-AA14-4414D896EB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82834701-F6D4-4F55-AA14-4414D896EB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82834701-F6D4-4F55-AA14-4414D896EB1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{28E54CB8-5590-4E94-951F-14E0C4992A2F} = {5D0CB7C0-437D-4900-A2CA-B296E89C2099}
 		{EA221BEC-0C4E-46E5-81DE-7FA108735B24} = {5D0CB7C0-437D-4900-A2CA-B296E89C2099}
 		{3D3712DE-EAD3-4A69-A862-6404F2C86EEB} = {5BB506A5-F005-424C-9DA3-A65BA1833EE1}
+		{82834701-F6D4-4F55-AA14-4414D896EB1E} = {5D0CB7C0-437D-4900-A2CA-B296E89C2099}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3539063E-AF17-4000-B015-488FC8811085}
